@@ -4,6 +4,7 @@
 * {
   margin: 0;
   padding: 0;
+   box-sizing: border-box;
   /* ALINHAMENTO DA PAGINA  shift alt F alinha o codigo*/
 }
 
@@ -20,6 +21,9 @@ header {
     box-shadow: 0 8px 4px rgba(0, 0, 0, 0.1);
   }
 }
+  iframe {
+    width: 100%;
+  }
 
 a {
   text-decoration: none;
@@ -233,7 +237,7 @@ footer {
   }
 }
 
-.hist{
+.hist,.come{
   img{
 border-radius: 20px;  
 width: 20em;
