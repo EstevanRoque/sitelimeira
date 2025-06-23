@@ -271,73 +271,7 @@ margin-top: 50px;
       color: #777;
     }
 }
-.ponto{
-  
-    h2 {
-      text-align: center;
-      color: #333;
-    }
 
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 20px auto;
-      background-color: #fff;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-
-    thead {
-      background-color: #004aad;
-      color: white;
-    }
-
-    th, td {
-      padding: 15px;
-      text-align: left;
-      border-bottom: 1px solid #ddd;
-    }
-
-    tr:hover {
-      background-color: #f1f1f1;
-    }
-
-    a {
-      color: #004aad;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    @media (max-width: 768px) {
-      table, thead, tbody, th, td, tr {
-        display: block;
-      }
-
-      thead {
-        display: none;
-      }
-
-      tr {
-        margin-bottom: 20px;
-        border-bottom: 2px solid #ccc;
-      }
-
-      td {
-        padding: 10px;
-        position: relative;
-      }
-
-      td::before {
-        content: attr(data-label);
-        font-weight: bold;
-        display: block;
-        margin-bottom: 5px;
-        color: #333;
-      }
-    }
-}
 @media (max-width: 728px) {
   .video-sobre {
     position: relative;
