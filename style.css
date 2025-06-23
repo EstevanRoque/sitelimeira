@@ -21,9 +21,6 @@ header {
     box-shadow: 0 8px 4px rgba(0, 0, 0, 0.1);
   }
 }
-  iframe {
-    width: 100%;
-  }
 
 a {
   text-decoration: none;
@@ -293,6 +290,9 @@ margin-top: 50px;
   }
 }
 @media screen and (max-width: 768px) {
+  iframe {
+    width: 100%;
+  }
 
   main{
     width: auto;
