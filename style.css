@@ -322,7 +322,7 @@ margin-top: 50px;
 .grid-map2,
 .grid-street {
    flex-direction: column;
-
+align-items: center;
 
   
 
